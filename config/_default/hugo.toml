@@ -1,8 +1,8 @@
-theme = 'Agnes'
+#theme = 'Agnes'
 
 baseURL = "https://openpathmassagev3.netlify.app/"
 languageCode = "en-us"
-title = "Open Path Wellness"
+title = "Open Path Massage & Wellness | Erica Moore, LMT""
 
 [params]
 	dateFormat = "Jan 2, 2023" 
