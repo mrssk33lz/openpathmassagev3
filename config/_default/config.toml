@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://openpathmassagev3.netlify.app/"
 languageCode = "en-us"
 title = "Agnes Site"
 
@@ -34,9 +34,9 @@ title = "Agnes Site"
 		weight = 4
 		
 [params.social]
-	TwitterURL = "https://twitter.com/podbharati"
+	TwitterURL = "https://twitter.com"
 	GoogleURL = "http://google.com"
-	FacebookURL = "https://facebook.com/podbharati"
+	FacebookURL = "https://facebook.com"
 		
 [params.content]
 	LeadTitle = "Landing template for Startups"
