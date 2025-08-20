@@ -1,6 +1,6 @@
 baseURL = "https://openpathmassagev3.netlify.app/"
 languageCode = "en-us"
-title = "Agnes Site"
+title = "Open Path Massage & Wellness | Erica Moore, LMT"
 
 [asset]
   [asset.sass]

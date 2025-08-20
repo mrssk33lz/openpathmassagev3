@@ -1,6 +1,6 @@
 theme = 'Agnes'
 
-baseURL = "http://example.org/"
+baseURL = "https://openpathmassagev3.netlify.app/"
 languageCode = "en-us"
 title = "Open Path Wellness"
 
