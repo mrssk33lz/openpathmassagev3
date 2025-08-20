@@ -2,7 +2,7 @@
 
 baseURL = "https://openpathmassagev3.netlify.app/"
 languageCode = "en-us"
-title = "Open Path Massage & Wellness | Erica Moore, LMT""
+title = "Open Path Massage & Wellness | Erica Moore, LMT"
 
 [params]
 	dateFormat = "Jan 2, 2023" 
