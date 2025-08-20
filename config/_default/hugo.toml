@@ -1,4 +1,4 @@
-#theme = 'Agnes'
+theme = 'Agnes'
 
 baseURL = "https://openpathmassagev3.netlify.app/"
 languageCode = "en-us"
