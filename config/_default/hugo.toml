@@ -6,7 +6,7 @@ title = "Open Path Massage & Wellness | Erica Moore, LMT"
 
 [params]
 	dateFormat = "Jan 2, 2023" 
-	authorName = "Open Path Massage"
+	authorName = "All Rights Reserved, Open Path Massage"
 	google_analytics_id = "GA-"
 	quality = 85
     bgColor = "#fff"
@@ -71,50 +71,87 @@ title = "Open Path Massage & Wellness | Erica Moore, LMT"
 ################### Pricing Columns (do not exceed 3) ####################
 
 [[params.pricing]]
-	PricingTitle = "60 Minute Massage"
-	PricingRate = "120"
-  PricingFrequency = ""
-	ButtonCaption = "Book a 60 min session"
+	PricingTitle = "Starter"
+	PricingRate = "27"	
+	ButtonCaption = "Get Early Access"
  	ButtonURL = "https://example.com/early-access.html"
 	[[params.pricing.Features]]
-		Description = "1 hour individual table massage"
+		Description = "Lorem ipsum is common text"
 	[[params.pricing.Features]]
-		Description = "Therpapeutic massage"
+		Description = "Lorem ipsum is common text"
 	[[params.pricing.Features]]
-		Description = "Deep tissue, knots, trigger points"
+		Description = "Lorem ipsum is common text"
 	[[params.pricing.Features]]
-		Description = "Cross Fiber Friction (when needed)"
-	[[params.pricing.Features]]
-		Description = "Cupping therapy available"
-	[[params.pricing.Features]]
-		Description = "Aromatherapy available"
+		Description = "Lorem ipsum is common text"	
 
 [[params.pricing]]
-	PricingTitle = "90 Minute Massage"
-	PricingRate = "160"
-  PricingFrequency = ""
-	ButtonCaption = "Book a 90 min session"
+	PricingTitle = "Professional"
+	PricingRate = "97"
+	ButtonCaption = "Get Earlier Access"
  	ButtonURL = "https://example.com/earlier-access.html"
 	[[params.pricing.Features]]
-		Description = "1 1/2 hour individual table massage"
+		Description = "Lorem ipsum is common text"
 	[[params.pricing.Features]]
-		Description = "Save $20 instead of 2 60 minute sessions"
+		Description = "Lorem ipsum is common text"
 	[[params.pricing.Features]]
-		Description = "All modalities available as 60 minute sessions"
+		Description = "Lorem ipsum is common text"
 	[[params.pricing.Features]]
 		Description = "Lorem ipsum is common text"		
 	
 [[params.pricing]]
-	PricingTitle = "Couples Massage"
-	PricingRate = "220"
-  PricingFrequency = ""
-	ButtonCaption = "Book a couples session"
+	PricingTitle = "Business"
+	PricingRate = "147"
+	ButtonCaption = "Get Earliest Access"
  	ButtonURL = "https://example.com/earliest-access.html"
 	[[params.pricing.Features]]
-		Description = "2 individual, 1-hour table massage sessions for couples"
-	[[params.pricing.Features]]
-		Description = "All modalities available as 60 and 90 minute sessions"
-	[[params.pricing.Features]]
-		Description = "Save booking a couples massage over 2 individual massages"
+		Description = "Lorem ipsum is common text"
 	[[params.pricing.Features]]
 		Description = "Lorem ipsum is common text"
+	[[params.pricing.Features]]
+		Description = "Lorem ipsum is common text"
+	[[params.pricing.Features]]
+		Description = "Lorem ipsum is common text"
+
+#################################### Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+attributes = "media='screen'"
+
+[[params.plugins.css]]
+link = "plugins/Ionicons/css/ionicons.min.css"
+attributes = ""
+
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.min.css"
+attributes = ""
+
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+attributes = ""
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/magnific-popup/magnific-popup.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+attributes = "defer"

@@ -39,32 +39,32 @@ title = "Open Path Massage & Wellness | Erica Moore, LMT"
 	FacebookURL = "https://facebook.com"
 		
 [params.content]
-	LeadTitle = "Landing template for Startups"
-	LeadDescription = "Our landing page template works for all the devices, so you only have to setup it once, and get beautiful results forever."
+	LeadTitle = "Open Path Massage & Wellness"
+	LeadDescription = "Your path to wellness through massage therapy is open!"
 	ButtonCaption = "Pricing & Plans"
-	ButtonURL = "http://google.com"
+	ButtonURL = "#Pricing"
 
 ################### Feature Columns (do not exceed 4) ####################
 
 [[params.feature]]
-	FeatureTitle = "Feature 1"
-	FeatureDescription = "A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements."
-	FeatureImage = "images/feature-1.png"
+	FeatureTitle = "In-Home Massage"
+	FeatureDescription = "Relaxing massage therapy provided by a Licensed Massage Therapist in the comfort of your own home."
+	FeatureImage = "images/open-path-logo-new.webp"
 	
 [[params.feature]]
-	FeatureTitle = "Feature 2"
-	FeatureDescription = "A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements."
-	FeatureImage = "images/feature-2.png"
+	FeatureTitle = "Massage Packages"
+	FeatureDescription = "Pre-order a massage package and save! Massage packages available for weekly, bi-weekly, or monthly in-home visits."
+	FeatureImage = "images/open-path-logo-new.webp"
 
 [[params.feature]]
-	FeatureTitle = "Feature 3"
-	FeatureDescription = "A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements."
-	FeatureImage = "images/feature-3.png"
+	FeatureTitle = "Massage for Events"
+	FeatureDescription = "Add relaxing table massage or chair massage to your office wellness program, next open house, sports massage for athletes before events, or any other event."
+	FeatureImage = "images/open-path-logo-new.webp"
 	
 [[params.feature]]
-	FeatureTitle = "Feature 4"
-	FeatureDescription = "A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements."
-	FeatureImage = "images/feature-4.png"
+	FeatureTitle = "Gift Certificates"
+	FeatureDescription = "Prepay for a massage package or massage for a friend, family, or a coworker with a massage gift certificate."
+	FeatureImage = "images/open-path-logo-new.webp"
 	
 ################### Pricing Columns (do not exceed 3) ####################
 
