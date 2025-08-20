@@ -1,0 +1,22 @@
+.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 16px;
+	max-width: none;
+  
+	@media (min-width: 481px) {
+	  padding: 0 24px;
+	}
+  }
+  
+  .container-sm {
+	max-width: 848px;
+  }
+  
+  /* Additional layout styles */
+body.is-boxed {
+	background: #eadfd9;
+}
+.body-wrap {
+	background: #eadfd9;
+}

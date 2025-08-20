@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{ partial "head.html" . }}
+	<body class="is-boxed has-animations">
+		<div class="body-wrap boxed-container">		
+		{{ partial "new-header.html" . }}
+			<main>
+				{{ block "main" . }}{{ end }}				
+			</main>		
+		{{ partial "footer.html" . }}
+		</div>
+		{{ partial "script.html" . }}
+		<!-- JS Plugins -->
+        {{ range site.Params.plugins.js}}
+        <script src="{{ .link | absURL }}" {{.attributes | safeHTMLAttr}}></script>
+        {{ end }}
+	</body>
+</html>

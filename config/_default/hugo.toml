@@ -1,0 +1,120 @@
+theme = 'Agnes'
+
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Open Path Wellness"
+
+[params]
+	dateFormat = "Jan 2, 2023" 
+	authorName = "Open Path Massage"
+	google_analytics_id = "GA-"
+	quality = 85
+    bgColor = "#fff"
+    landscapePhotoWidths = [900, 800, 700, 600, 500]
+    portraitPhotoWidths = [800, 700, 600, 500]
+    lqipWidth = "20x"
+	
+[menu]
+	[[menu.main]]
+		Name = "Contact"
+		URL = "#"
+		weight = 1
+	
+	[[menu.main]]
+		Name = "About us"
+		URL = "#"
+		weight = 2
+	
+	[[menu.main]]
+		Name = "FAQ's"
+		URL = "#"
+		weight = 3
+	
+	[[menu.main]]
+		Name = "Support"
+		URL = "#"
+		weight = 4
+		
+[params.social]
+	TwitterURL = "https://twitter.com/podbharati"
+	GoogleURL = "http://google.com"
+	FacebookURL = "https://facebook.com/podbharati"
+		
+[params.content]
+	LeadTitle = "Open Path Massage & Wellness"
+	LeadDescription = "Your path to wellness through massage therapy is open!"
+	ButtonCaption = "Pricing & Plans"
+	ButtonURL = "#Pricing"
+
+################### Feature Columns (do not exceed 4) ####################
+
+[[params.feature]]
+	FeatureTitle = "In-Home Massage"
+	FeatureDescription = "Relaxing massage therapy provided by a Licensed Massage Therapist in the comfort of your own home."
+	FeatureImage = "images/open-path-logo-new.webp"
+	
+[[params.feature]]
+	FeatureTitle = "Massage Packages"
+	FeatureDescription = "Pre-order a massage package and save! Massage packages available for weekly, bi-weekly, or monthly in-home visits."
+	FeatureImage = "images/open-path-logo-new.webp"
+
+[[params.feature]]
+	FeatureTitle = "Massage for Events"
+	FeatureDescription = "Add relaxing table massage or chair massage to your office wellness program, next open house, sports massage for athletes before events, or any other event."
+	FeatureImage = "images/open-path-logo-new.webp"
+	
+[[params.feature]]
+	FeatureTitle = "Gift Certificates"
+	FeatureDescription = "Prepay for a massage package or massage for a friend, family, or a coworker with a massage gift certificate."
+	FeatureImage = "images/open-path-logo-new.webp"
+	
+################### Pricing Columns (do not exceed 3) ####################
+
+[[params.pricing]]
+	PricingTitle = "60 Minute Massage"
+	PricingRate = "120"
+  PricingFrequency = ""
+	ButtonCaption = "Book a 60 min session"
+ 	ButtonURL = "https://example.com/early-access.html"
+	[[params.pricing.Features]]
+		Description = "1 hour individual table massage"
+	[[params.pricing.Features]]
+		Description = "Therpapeutic massage"
+	[[params.pricing.Features]]
+		Description = "Deep tissue, knots, trigger points"
+	[[params.pricing.Features]]
+		Description = "Cross Fiber Friction (when needed)"
+	[[params.pricing.Features]]
+		Description = "Cupping therapy available"
+	[[params.pricing.Features]]
+		Description = "Aromatherapy available"
+
+[[params.pricing]]
+	PricingTitle = "90 Minute Massage"
+	PricingRate = "160"
+  PricingFrequency = ""
+	ButtonCaption = "Book a 90 min session"
+ 	ButtonURL = "https://example.com/earlier-access.html"
+	[[params.pricing.Features]]
+		Description = "1 1/2 hour individual table massage"
+	[[params.pricing.Features]]
+		Description = "Save $20 instead of 2 60 minute sessions"
+	[[params.pricing.Features]]
+		Description = "All modalities available as 60 minute sessions"
+	[[params.pricing.Features]]
+		Description = "Lorem ipsum is common text"		
+	
+[[params.pricing]]
+	PricingTitle = "Couples Massage"
+	PricingRate = "220"
+  PricingFrequency = ""
+	ButtonCaption = "Book a couples session"
+ 	ButtonURL = "https://example.com/earliest-access.html"
+	[[params.pricing.Features]]
+		Description = "2 individual, 1-hour table massage sessions for couples"
+	[[params.pricing.Features]]
+		Description = "All modalities available as 60 and 90 minute sessions"
+	[[params.pricing.Features]]
+		Description = "Save booking a couples massage over 2 individual massages"
+	[[params.pricing.Features]]
+		Description = "Lorem ipsum is common text"

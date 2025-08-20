@@ -1,0 +1,26 @@
+.feature {
+        @include desktop {
+            background: #f2f2f2;
+            background-image: none !important;
+        }
+
+	h2 {
+		margin-bottom: 30px;
+	}
+
+	p {
+		color: #8d8f92;
+		margin-bottom: 20px;
+	}
+
+	.btn-view-works {
+		background: $primary-color;
+		color: #fff;
+		padding: 10px 20px;
+	}
+}
+
+.feature-inner {
+	border-radius: 20px 0;
+	box-shadow: none;
+}

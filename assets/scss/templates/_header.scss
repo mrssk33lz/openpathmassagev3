@@ -1,0 +1,64 @@
+/*--
+	Header Start 
+--*/
+
+header{
+	background: #eadfd9;
+	padding: 20px 0;
+	.navbar{
+		margin-bottom: 0px;
+		border: 0px;
+	}
+    .box {
+        align-items: center;
+        .navbar-brand {
+            height: 50px;
+            padding-top: 5px;
+            @include tablet {
+                padding: 0;
+                height: 1.5em;
+                font-size: 14px;
+            }
+            img {
+                float: left;
+                @include tablet {
+                    width: 18%;
+                }
+            }
+            strong {
+                position: relative;
+                top: 150%;
+                left: 10%;
+                transform: translateY(-50%);
+                @include tablet {
+                    padding: 1.5em 1em;
+                    top: 80%;
+                    left: 0;
+                }
+            }
+        }
+    }
+	
+	.navbar-default{
+		background: none;
+		border: 0px;
+		.navbar-nav{
+			  padding-top: 10px;
+			li{
+			  a{
+			  	color: #333333;
+			  	padding: 10px 26px;
+			  	font-size: 15px;
+			  	font
+			  	&:hover{
+			  		color: #000;
+			  	}
+			  }
+			}
+		}
+	}
+    .logo {
+        width: 108px;
+    }
+
+}

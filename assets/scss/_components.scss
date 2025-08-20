@@ -1,0 +1,30 @@
+.button {
+	display: inline-flex;
+	font-family: "Mukta", sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 16px;
+	background-color: #fff;
+	color: #0081f6;
+	border: none;
+	border-radius: 10px 0 10px 0;
+	padding: 16px 32px;
+	cursor: pointer;
+  
+	&:hover {
+	  background-color: #f0f0f0;
+	}
+  
+	&.button-primary {
+	  background: linear-gradient(65deg, #43204d 0, #351a3c 100%);
+	  color: #fff;
+	  border-radius: 10px 0 10px 0;
+  
+	  &:hover {
+		background: linear-gradient(65deg, #351a3c 0, #43204d 100%);
+	  }
+	}
+  }
+  
+  /* Additional component styles */
+  

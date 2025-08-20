@@ -1,0 +1,28 @@
+{{ $data := index site.Data }}
+{{ with $data.services.service }}
+<section class="service">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>{{ .title | markdownify }}</h2>
+        <p>{{ .description | markdownify }}</p>
+      </div>
+    </div>
+    <div class="row">
+      {{ range .service_item }}
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          {{ if .icon }}
+          <i class="icon {{ .icon }}"></i>
+          {{ else }}
+          <img class="image-icon" src="images/icons/hospice-massage.webp">
+          {{ end }}
+          <h4>{{ .name | markdownify }}</h4>
+          <p>{{ .content | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

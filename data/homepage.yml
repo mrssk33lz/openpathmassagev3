@@ -1,0 +1,154 @@
+############################### Banner ##############################
+banner:
+  enable : true
+  bg_image : ""
+  bg_overlay : true
+  title : "Web Development <br/> & Website Support Services"
+  content : "We build, maintain, and improve websites for small businesses and organizations."
+  button:
+    enable : true
+    label : "View Our Website Services"
+    link : "services"
+
+############################# About #################################
+about:
+  enable : true
+  title : "We love helping small business!"
+  description : "One of the top reasons small businesses fail is because they never create a branded website with a custom domain for their business, or it is severely outdated. We want to help change that by providing affordable website services for small businesses and organizations around the world."
+  content : "Most small businesses are in growingly competitive local markets. Establish and maintain your brand online in the growing digital economy. Building a custom website for your small business is crucial in becoming a leader both locally and worldwide for your company's brand."
+  image : "images/company/about.jpg"
+
+
+######################### Portfolio ###############################
+portfolio:
+  enable : true
+  bg_image : "images/chris-ried-ieic5Tq8YMk-unsplash-m.jpg"
+  title : "Build, Analyze, Improve, Maintain"
+  content : "
+  - We build fast, accessible, responsive, and affordable websites for small businesses, organizations, and clubs.
+
+
+  - We analyze websites for performance, accessibility, security, and content issues that may negatively affect the site or limit access to content.
+
+
+  - We improve existing small business websites with new features, fix bugs, and resolve issues we have found in our analysis.
+
+  
+  - We maintain existing small business websites to ensure all of the above, keeping your website secure, and keeping it online 24x7x365.
+  "
+  button:
+    enable : true
+    label : "View our Website Portfolio"
+    link : "portfolio"
+
+
+############################# Services ############################
+services:
+  enable : false
+  # services content comes from "data/*/services.yml" file
+
+############################# Industries ###############################
+industries:
+  enable : false
+  # other industries content comes from "data/*/industries.yml" file
+  title : "Industries We Support"
+  description : "We support a growing list of industries that commonly are run by small businesses to help establish and grow their company brands online in the modern digital economy."
+  service_item:
+    # service item loop
+    - icon : ion-android-car #ionicon pack v2 : https://ionicons.com/v2/
+      name: <a href="/industries/automotive">Automotive Websites</a>
+      content: "Get more new customers rolling into your shop or lot with a custom website for your automotive small business."
+
+    # service item loop
+    - icon : ion-hammer #ionicon pack v2 : https://ionicons.com/v2/
+      name: <a href="/industries/construction">Construction Websites</a>
+      content: "A custom domain website is an essential tool for small businesses in construction to have in their toolbox."
+
+    # service item loop
+    - icon : ion-leaf #ionicon pack v2 : https://ionicons.com/v2/
+      name: Landscaping Websites
+      content: "Keep your crew busy during any season with a custom website for your landscaping small business." 
+
+    # service item loop
+    - icon : ion-medkit #ionicon pack v2 : https://ionicons.com/v2/
+      name: Dental & Medical Websites
+      content: "Keep more patients happy and healthy with a custom medical or dental website for your practice."
+
+    # service item loop
+    #- icon : ion-pricetags #ionicon pack v2 : https://ionicons.com/v2/
+    #  name: Retail Store Websites
+    #  content: "Open the doors of your retail store to a world of potential customers with an ecommerce website."
+
+    # service item loop
+    #- icon : ion-settings #ionicon pack v2 : https://ionicons.com/v2/
+    #  name: Home Services Websites
+    #  content: "Connect your home services small business with more customers in your local area with a custom website."
+
+    # service item loop
+    #- icon : ion-ios-home #ionicon pack v2 : https://ionicons.com/v2/
+    #  name: Real Estate Websites
+    #  content: "Show listings to potential buyers in your local area and worldwide with a custom real estate website."
+
+    # service item loop
+    #- icon : ion-wrench #ionicon pack v2 : https://ionicons.com/v2/
+    #  name: <a href="/industries/home-repair">Home Repair Websites</a>
+    #  content: "Gain an edge on your local competition with a custom domain website for your home repair small business."
+
+############################ call to action ###########################
+cta:
+  enable : false
+  bg_image : "images/call-to-action-bg.jpg"
+  title : "Take your small business to the next level!"
+  content : "Social media is a great start, but creating a website with a custom domain for your small business is crucial in establishing your brand in today's digital economy."
+  button:
+    enable : true
+    label : "Tell Us Your Story"
+    link : "contact"
+
+############################# Funfacts ###############################
+funfacts:
+  enable : false
+  title : "Fun Facts About Us"
+  description : "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
+          blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
+  funfact_item:
+    # funfacts item loop
+    - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Cups Of Coffee"
+      count : "99"
+      
+    # funfacts item loop
+    - icon : "ion-ios-glasses-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Article Written"
+      count : "45"
+      
+    # funfacts item loop
+    - icon : "ion-ios-compose-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Projects Completed"
+      count : "125"
+      
+    # funfacts item loop
+    - icon : "ion-ios-timer-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Combined Projects"
+      count : "200"
+
+  testimonial_slider:
+    # testimonial item loop
+    - name : "Theresa Murray"
+      image : ""
+      designation : "NJ SEEDS Development Officer, Communications and Annual Fund"
+      content : "Jason served as a trusted ally during the entire process, working closely with a designer to create a new and vibrant site for visitors that closely aligned with our new logo and advising the SEEDS team with recommendations."
+                
+    # testimonial item loop
+    - name : "Randi Renin"
+      image : "images/clients/avater-1.jpg"
+      designation : "CEO-Themefisher"
+      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
+                ideas we feel that our site has unique elements that make us stand out from the crowd."
+                
+    # testimonial item loop
+    #- name : "Rose Rio"
+    #  image : "images/clients/avater-3.jpg"
+    #  designation : "CEO-Themefisher"
+    #  content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
+    #            ideas we feel that our site has unique elements that make us stand out from the crowd."

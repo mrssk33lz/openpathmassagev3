@@ -1,0 +1,12 @@
+# Image Quality
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
+
+contentDir = "content"
+
+# render unsafe html
+[markup.goldmark.renderer]
+unsafe = true

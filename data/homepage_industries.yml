@@ -1,0 +1,82 @@
+########################### about industries #############################
+about:
+  enable : true
+  title : "Affordable Small Business Websites"
+  content : "We build and maintain small business websites optimized for performance and accessibility that fit your budget. We also offer a wide range of website support services for small businesses to help maintain your site and build your brand online allowing you to focus on your business and your customers."
+  image : "images/company/company-group-pic.jpg"
+
+
+########################## featured service ############################
+featured_service:
+  enable : true
+  service_item:
+    # featured service item loop
+    - name : "Small Business Website Services"
+      icon : "ion-code"
+      color : "primary"
+      content : "We offer affordable website development and website support services for small businesses and organizations. Let us focus on your website while you focus on your business."
+      
+    # featured service item loop
+    - name : "Drupal Website Services"
+      icon : "ion-erlenmeyer-flask"
+      color : "primary-dark"
+      content : "Arbor Web Development specializes in Drupal website development, Drupal consulting, and Drupal support. We offer affordable Drupal services for small businesses and organizations. "
+      
+    # featured service item loop
+    - name : "Website Optimization Services"
+      icon : "ion-lightbulb"
+      color : "primary-darker"
+      content : "We offer website optimization services for small business websites. Many websites are poorly optimized for performance, SEO, and other reasons. We will audit your site and find areas to improve."
+
+      
+############################# Industries ###############################
+industries:
+  enable : false
+  title : "Industries We Support"
+  description : "We support a wide range of industries that commonly are run by small businesses to help establish and grow their brand online."
+  service_item:
+    # service item loop
+    - icon : ion-android-car #ionicon pack v2 : https://ionicons.com/v2/
+      name: <a href="/industries/automotive">Automotive Websites</a>
+      content: "Get more new customers rolling into your shop with a custom website for your automotive small business."
+
+    # service item loop
+    - icon : ion-hammer #ionicon pack v2 : https://ionicons.com/v2/
+      name: Construction Websites
+      content: "A custom domain website is an essential tool for small businesses in construction to have in their toolbox."
+
+    # service item loop
+    - icon : ion-leaf #ionicon pack v2 : https://ionicons.com/v2/
+      name: Landscaping Websites
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+
+    # service item loop
+    - icon : ion-medkit #ionicon pack v2 : https://ionicons.com/v2/
+      name: Dental & Medical Websites
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+
+    # service item loop
+    - icon : ion-pricetags #ionicon pack v2 : https://ionicons.com/v2/
+      name: Retail Store Websites
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+
+    # service item loop
+    - icon : ion-ios-home #ionicon pack v2 : https://ionicons.com/v2/
+      name: Home Services Websites
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+
+    # service item loop
+    - icon : ion-ios-home #ionicon pack v2 : https://ionicons.com/v2/
+      name: Real Estate Websites
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+
+    # service item loop
+    - icon : ion-wrench #ionicon pack v2 : https://ionicons.com/v2/
+      name: Home Repair Websites
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      
+      
+############################# call to action #################################
+cta:
+  enable : true
+  # call to action content comes from "data/*/homepage.yml"

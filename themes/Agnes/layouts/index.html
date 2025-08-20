@@ -1,0 +1,75 @@
+{{ define "main" }}
+			<section class="hero">
+				<div class="container">	
+					<div class="hero-inner">
+						<div class="hero-copy">
+							<h1 class="hero-title h2-mobile mt-0 is-revealing">{{ .Site.Params.Content.LeadTitle | markdownify }}</h1>
+							<p class="hero-paragraph is-revealing">{{ .Site.Params.Content.LeadDescription | markdownify }}</p>
+							{{ if .Site.Params.Content.ButtonCaption }}
+							<p class="hero-cta is-revealing"><a class="button button-primary button-shadow" href="{{ .Site.Params.Content.ButtonURL}}">{{ .Site.Params.Content.ButtonCaption | markdownify }}</a></p>
+							{{ end }}							
+						</div>
+						<div class="hero-illustration is-revealing">
+							<img src="images/in-home-massage.jpg" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="features section text-center">
+				<div class="section-square"></div>
+				<div class="container">
+					<div class="features-inner section-inner">
+                        <div class="features-wrap">
+							{{ range site.Params.feature }}
+                            <div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+                                        <img src="{{ .FeatureImage }}">
+                                    </div>
+                                    <h4 class="feature-title h3-mobile">{{ .FeatureTitle }}</h4>
+                                    <p class="text-sm">{{ .FeatureDescription }}</p>
+                                </div>
+                            </div>
+                            {{ end }}
+                        </div>
+                    </div>
+				</div>
+			</section>
+			<section class="pricing section">
+				<div class="section-square"></div>
+				<div class="container">
+					<div class="pricing-inner section-inner has-top-divider">
+                        <h2 class="section-title mt-0 text-center">Pricing</h2>
+                        <div class="pricing-tables-wrap">
+							{{ range site.Params.pricing }}
+                            <div class="pricing-table">
+                                <div class="pricing-table-inner">
+                                    <div class="pricing-table-main">
+                                        <div class="pricing-table-header is-revealing">
+                                            <div class="pricing-table-title mt-12 mb-8">{{ .PricingTitle }}</div>
+                                            <div class="pricing-table-price mb-32 pb-24"><span class="pricing-table-price-currency h4">$</span><span class="pricing-table-price-amount h2">{{ .PricingRate }}</span>{{ .PricingFrequency }}</div>
+                                        </div>
+                                        <ul class="pricing-table-features list-reset text-xs mt-24 mb-56">
+											{{ range .Features }}
+                                            <li class="is-revealing">
+                                                <span class="list-icon">
+                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill="#5FFAD0" fill-rule="nonzero" d="M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
+                                                    </svg>
+                                                </span>
+                                                <span>{{ .Description }}</span>
+                                            </li>    
+											{{ end }}
+                                        </ul>
+                                    </div>
+                                    <div class="pricing-table-cta is-revealing">
+                                        <a class="button button-primary button-shadow button-block" href="{{ .ButtonURL }}">{{ .ButtonCaption }}</a>
+                                    </div>
+                                </div>
+                            </div> 
+							{{ end }}
+                        </div>
+                    </div>
+				</div>
+			</section>
+{{ end }}

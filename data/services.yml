@@ -1,0 +1,85 @@
+########################### about service #############################
+about:
+  enable : true
+  title : "Affordable Small Business Websites"
+  content : "We build and maintain small business websites optimized for performance and accessibility that fit your budget. We also offer a wide range of website support services for small businesses to help maintain your site and build your brand online allowing you to focus on your business and your customers."
+  image : "images/company/company-group-pic.jpg"
+  anchor : true
+
+
+########################## featured service ############################
+featured_service:
+  enable : true
+  service_item:
+    # featured service item loop
+    - name : "Small Business Website Services"
+      icon : "ion-briefcase"
+      color : "primary"
+      content : "We offer affordable website development and website support services for small businesses and organizations. Let us focus on your website while you focus on your business."
+      
+    # featured service item loop
+    - name : "Drupal Website Services"
+      icon : "ion-waterdrop"
+      color : "primary-dark"
+      content : "Arbor Web Development specializes in Drupal website development, Drupal consulting, and Drupal support. We offer affordable Drupal services for small businesses and organizations. "
+      
+    # featured service item loop
+    - name : "Website Optimization Services"
+      icon : "ion-speedometer"
+      color : "primary-darker"
+      content : "We offer website optimization services for small business websites. Many websites are poorly optimized for performance, SEO, and other reasons. We will audit your site and find areas to improve it."
+
+      
+############################# Service ###############################
+service:
+  enable : true
+  title : "Our Services"
+  description : "We offer a wide range of web development, support, optimization, and consulting services.
+
+
+We also provide services to help improve your business through website analytics, devops, and automation."
+  service_item:
+    # service item loop
+    - icon : ion-ios-body #ionicon pack v2 : https://ionicons.com/v2/
+      name: <a href="/services/drupal">Massage Therapy</a>
+      content: "We specialize in Drupal website development, Drupal consulting, Drupal training, and Drupal website support services."
+
+    # service item loop
+    - icon : ion-home #ionicon pack v2 : https://ionicons.com/v2/
+      name: <a href="/services/website-development">In-Home Massage</a>
+      content: "We provide website development services across a range of industries for small businesses and organizations."
+
+    # service item loop
+    - #icon : ion-speedometer #ionicon pack v2 : https://ionicons.com/v2/
+      name: <a href="/services/website-optimization">Hospice Massage</a>
+      content: "We provide website optimization services to improve performance, search engine optimization, and website accessibility."
+
+    # service item loop
+    - icon : ion-ios-baseball-outline #ionicon pack v2 : https://ionicons.com/v2/
+      name: <a href="/services/website-support">Sports Massage</a>
+      content: "We provide both temporary website support and ongoing website support services for small businesses and organizations."
+
+    # service item loop
+    - icon : ion-android-people #ionicon pack v2 : https://ionicons.com/v2/
+      name: <a href="/services/website-consulting">Couples Massage</a>
+      content: "We provide a wide range of website consulting services to help build, improve, document, and maintain small business websites."
+
+    # service item loop
+    - icon : ion-cube #ionicon pack v2 : https://ionicons.com/v2/
+      name: <a href="/services/website-analytics">Massager Packages</a>
+      content: "We specialize in website analytics for core metrics like website performance, search engine optimization, and website accessibility."
+
+    # service item loop
+    - icon : ion-erlenmeyer-flask #ionicon pack v2 : https://ionicons.com/v2/
+      name: <a href="/services/devops">Aromatherapy</a>
+      content: "We provide a growing list of DevOps services such as server provisioning, Docker administration, and Linux server administration for small businesses."
+
+    # service item loop
+    - icon : ion-android-calendar #ionicon pack v2 : https://ionicons.com/v2/
+      name: <a href="/services/automation">Massage Events</a>
+      content: "We specialize in task automation, automated testing, Continuous Integration, and Continuous Deployment using tools like Jenkins."
+      
+############################# call to action #################################
+cta:
+  enable : true
+  # call to action content comes from "data/*/homepage.yml"

@@ -1,0 +1,25 @@
+body {
+	font-family: "Hind Vadodara", sans-serif;
+	font-size: 1rem;
+	color: #6f8394;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+	font-family: "Mukta", sans-serif;
+	font-weight: 500;
+	color: #1f2b35;
+  }
+  
+  h1 {
+	font-size: 42px;
+	line-height: 52px;
+	letter-spacing: -0.1px;
+  
+	@media (min-width: 641px) {
+	  font-size: 54px;
+	  line-height: 66px;
+	}
+  }
+  
+  /* Additional typography rules */
+  
